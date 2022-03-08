@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num=new Array;
+        for(var i=0; i<10 ;i++){
+            num[i]=parseInt(prompt('Introduzca 10 numero'))
+        }
+        var mayor=num[0];
+        var posicionmayor=0;
+        var contador=1;
+        while(contador<10){
+            if(num[contador]>mayor){
+                mayor=num[contador];
+                posicionmayor=contador;
+            }
+            contador++;
+        }
+      alert('El numero mayor ingresado es ' +mayor);
+    </script>
+</head>
+<body>
+   
+</body>
+</html> 
